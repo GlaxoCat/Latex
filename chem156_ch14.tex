@@ -541,7 +541,50 @@ How long before any molecule A turns into B? Treat the reaction in bulk:
     \frac{A}{A_0} = e^{\frac{-t}{\tau}} \text{ where } \tau = \frac{1}{k}
 \end{equation}
 
-$\frac{A}{A_0} $ can be considered the probability that any molecule A will 
+$\frac{A}{A_0} $ can be considered the probability that any molecule A will \textbf{not} convert at time t. 
 
+The probability that molecule A reacts precisely at time t is \( P(A)_{react} = \frac{1}{\tau} e^{\frac{-t}{\tau}} \).
+
+To get the average time at which a molecule of A reacts (aka waiting time), we need
+to get the average value of t by weighting all possible values of t by probability of reaction at time t. 
+
+\textbf{To do this}, multiply t by the probability of reaction at time t, then integrate from t = 0 to infinity. 
+
+\begin{equation}
+    \text{waiting time} = \int_{t = 0}^{t = \infty}(t(\frac{1}{\tau})e^{\frac{-t}{\tau}})dt
+\end{equation}
+
+If we can measure how long it takes a single molecule to undergo a transition,then we have measured $\tau$. 
+
+\newpage
+
+\section*{Chapter 16: Kinetic Theories and Enzyme Catalysis}
+Now we want to look at what determines the rate constant, k. What makes some reactions innately fast or slow?
+There are two main models that try to explain the mechanisms of chemical reactions and their rate constants. 
+
+\subsection*{The Arrhenius Equaton}
+
+This is often used to discuss reaction rates in terms of \textbf{molecular collisions}. 
+The rate constant k is determined by:
+
+\begin{equation}
+    k = Ae^{-\frac{E_a}{RT}}
+\end{equation}
+
+A is the \textbf{frequency factor} and $E_a$ is an \textbf{activation energy}. 
+We already know that the frequency of collisions in a reaction is dependent on concentrations. 
+The frequency factor in the equation for k accounts for other phenomena ie. the dependence of molecular
+velocities and consequently collision rates on temperature, and the dependence of reaction probability on 
+the orientation of the colliding molecules. 
+
+\textbf{$E_a$} describes a lower bound for energy that reactants must have for reaction to occur. Why does $E_a$ 
+enter the equation for k as an exponential term? \textbf{Boltzmann Distrbution!}
+
+If \( N(E) \propto e^{\frac{-E}{RT}} \), then we can find the fraction of molecules having energy at least as high as $E_a$ by 
+\textbf{taking the ratio of area that falls under the curve and has E $\geq$ $E_a$} divided by entire area under the curve. 
+
+\begin{align*}
+    \frac{\int_{E_a}^{\infty}  e^{\frac{-E}{RT}}}{\int_{0}^{\infty}  e^{\frac{-E}{RT}}} = 4x |_{0}^{5}
+\end{align*}
 
 \end{document}
