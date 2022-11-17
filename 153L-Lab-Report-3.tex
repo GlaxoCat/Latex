@@ -1,0 +1,117 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage[utf8]{inputenc} % allowing to use math symbols that are otherwise unavailable
+\usepackage[margin=1in]{geometry}
+\usepackage{array}
+\usepackage{caption}
+
+\setlength{\parskip}{1em} % adding a slight space between paragraphs for readability
+\setlength{\parindent}{0em} % removing formatting of indentation, applied globally
+
+
+\begin{document}
+
+ \begin{center}
+    \huge{YqhD $Ni^{2+}$-NTA Affinity Purification} \\[10pt]
+    \large{Andrew Chang}
+ \end{center}
+
+ \rule{\textwidth}{0.5pt} 
+
+ \begin{abstract}
+    \noindent Biofuels come in several different forms. To begin, biodiesel is extracted directly from animal fats and vegetable oils, and is commonly used in diesel engines. In addition, sugar cane, sugar beet, corn, and other starch-based crops can be processed to yield ethanol. Isobutanol is another alternative similar to ethanol, but is highly favored due to its higher energy density derived from its longer carbon chain (Akita et. al 2015). Recent studies have taken advantage of biosynthetic pathways of genetically modified Escherichia coli to efficiently produce isobutanol from its carbon precursors (Atsumi et. al 2010). Alcohol dehydrogenase (ADH) is an enzyme that plays a key role in reducing isobutyraldehyde to isobutanol with the assistance of NADH. YqhD is a gene on E. Coli that was previously revealed to influence expression of alcohol dehydrogenase. An essential aspect of practical biofuel production using ethanol and isobutanol is ensuring isolation and purification of YqhD for optimal utilization in biosynthetic pathways of E. Coli. These experiments are thus aimed at isolating YqhD following initial cellular induction and purifying it using affinity chromatography. 
+ \end{abstract}
+ \rule{\textwidth}{0.5pt} % Having the cool line to separate
+
+\section{Introduction}
+\subsection{Background}
+Since the industrial revolution, the world has burned fossil fuels almost exclusively to run our cars, buildings, and everything else that involves electricity. Nearly two centuries later, fossil fuels are still the predominant source of energy, which has severely damaged the natural environment. Most notably, the burning of fossil fuels releases dangerous amounts of carbon dioxide into the atmosphere, consequently damaging the ozone layer and contributing to global warming. Over the past few decades, biofuels (derived directly from live biomass) have proven to be an environmentally friendly alternative to fossil fuels. Biofuels are considered to be carbon neutral, given that the biomass from which they are extracted work to absorb carbon dioxide from the surrounding environment.
+
+\subsection{Context}
+Biofuels come in several different forms. To begin, biodiesel is extracted directly from animal fats and vegetable oils, and is commonly used in diesel engines. In addition, sugar cane, sugar beet, corn, and other starch-based crops can be processed to yield ethanol. Isobutanol is another alternative similar to ethanol, but is highly favored due to its higher energy density derived from its longer carbon chain (Akita et. al 2015). Recent studies have taken advantage of biosynthetic pathways of genetically modified Escherichia coli to efficiently produce isobutanol from its carbon precursors (Atsumi et. al 2010). Alcohol dehydrogenase (ADH) is an enzyme that plays a key role in reducing isobutyraldehyde to isobutanol with the assistance of NADH. YqhD is a gene on E. Coli that was previously revealed to influence expression of alcohol dehydrogenase. An essential aspect of practical biofuel production using ethanol and isobutanol is ensuring isolation and purification of YqhD for optimal utilization in biosynthetic pathways of E. Coli. These experiments are thus aimed at isolating YqhD following initial cellular induction and purifying it using affinity chromatography. 
+
+\section{Materials and Methods}
+\rule{\textwidth}{0.5pt}
+
+\subsection{Induction of $His_6$-Tagged Fusion Protein Expression}
+In preparation for successful induction, YqhD was cloned into the pETDuet plasmid. This complex, 
+otherwise known as pTW2, was then expressed in \textit{E. Coli} BL212 Star DE3 cells. These cells
+were under the control of bacteriophage T7 promoter, and LacI repressor. Other mutations also include
+bacteriophage $\gamma$ prophage expressing T7 RNA polymerase and \textit{LacI} as well as a mutation 
+in Lon protease and enhanced mRNA stability via \textit{me-131} allele. 
+
+\subsection{Induction Protocol}
+
+20 mL of Luria-Bertani (LB) broth was added into a 125 mL Erlenmeyer Flask and incubated with 0.05 mg/mL 
+ampicillin. The optical density of the culture was determined and used to normalize the relative amount of cells 
+prior to transfer into the medium. The medium flask is further shaken at $37^o$ C for 30 minutes. Two 1 mL samples 
+are transferred to two microcentrifuge tubes, which are placed on ice and labeled "time 0." 0.1 mM of IPTG is added 
+into the remaining culture and incubated in the shaker at $37^o$ C for 1 hour. One of the previous sample tubes was 
+spun into the microcentrifuge at 13,000 xg for 1 minute. The supernatant was removed, and the tube with the remaining
+pellete was frozen at $-20^o$ C for future analysis. The other remaining sample was vortexed and transferred into a 
+semi-micro cuvette, where its optical density was measured at 600 nm ($OD_{600}$) in order to determine the number of cells
+present at time point 0. Once the 1 hour incubation period was copmlete, another two 1.0 mL samples were removed, 
+transferred to eppendorf tubes labeled "time point 1", and placed on ice. The previous steps, including the spin and 
+supernatant removal, were repeated for $OD_{600}$ analysis. After one more hour, two more samples were removed and labeled
+"time point 2", followed by the same analysis. 
+
+\subsection{SDS Polyacrylamide Gel Electrophoresis}
+
+After a week, the cell pellets at $T_0$, $T_1$, and $T_2$ were removed from the freezer and thawed by hand. All three samples
+were incubated with a 1:5 dilution of the provided 5x sample loading buffer, which consisted of 6M urea, 10\% $\beta$-mercaptoethanol,
+0.2 \% bromophenol blue, 1\% sodium dodecyl suflate (SDS) and 125 mM Tris(hydroxymethyl)aminomethane hydrochloride (Tris-HCl) in a 
+buffer pH of 6.8. The samples were vortexed and boiled at $95_o$ C for 5 minutes, then vortexed again and briefly pulsed in the microcentrifuge. 
+In order to normalize the amount of cells across the three timepoints, appropriate dilutions were made using the measured value of $OD_{600}$ as the 
+standard for cell density. 
+
+\section{Results}
+\rule{\textwidth}{0.5pt}
+
+The initial induction assay yielded three \textit{E. Coli} cell samples, each of which were extracted a different time point
+($T_0$, $T_1$, $T_2$). SDS-PAGE and immunoblot analysis revealed that higher expression of YqhD was observed as IPTG induction 
+induction continued for longer periods of time. Normalization across samples at different timepoints was performed in order to 
+standardize YqhD expression analysis to the same relative density of cells, thus minmizing the influence of other extraneous
+variables beyond duration of IPTG induction. These calculatioons were performed using the $OD_{600}$ of the $T_0$ sample as the standard 
+with the equation shown below: 
+
+\begin{equation}
+ Volume \ of \ Cells  = \frac{OD_{600} \times V_{t=0}}{OD_{600}} = V_{t=x} 
+\end{equation}
+
+Using this equation, the appropriate volumes of cells from each timepoint were added along with the appropriate volumes of buffer to maintain a constant volume of 30 $\mu$L. 
+Final calculations and volumes are shown in the table below:
+
+\begin{table}[ht]
+ \caption{\label{tab:table-name}Your caption.}
+ \begin{tabular}{ | m{10em} | m{10em}| m{10em} | m{10em} | } 
+   \hline
+   $Sample$ & $OD_{600}$ & Total Volume ($\mu$L)$ & $V_{Buffer}$  \\ 
+   \hline
+   $t_{0} Post-Induction$ & $0.3702$ & $30.0$ & $0.00$ \\ 
+   \hline
+   $t_{1} Post-Induction$ & $0.9738$ & $11.41$ & $18.59$ \\
+   \hline
+   $t_{2} Post-Induction$ & $0.9738$ & $11.41$ & $18.59$ \\
+   \hline
+ \end{tabular}
+\end{table}
+
+\begin
+$The initial induction assay yielded three \textit{E. Coli} cell samples, each of which were extracted a different time point
+($T_{0}$, $T_1$, $T_2$). SDS-PAGE and immunoblot analysis revealed that higher expression of YqhD was observed as IPTG induction 
+induction continued for longer periods of time. Normalization across samples at different timepoints was performed in order to 
+standardize YqhD expression analysis to the same relative density of cells, thus minmizing the influence of other extraneous
+variables beyond duration of IPTG induction. These calculatioons were performed using the $OD_{600}$ of the $T_0$ sample as the standard 
+with the equation shown below:$
+\end
+
+
+
+\usepackage{caption}
+...
+\begin{center}
+\includegraphics{filename}%
+\captionof{figure}{text}\label{labelname}%
+\end{center}
+
+
+\end{document} 
