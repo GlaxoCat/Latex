@@ -629,4 +629,59 @@ The double-dagger symbol indicates the transition state.
     A + B \stackrel{k_{+ \ddagger }}{\underset{k_{- \ddagger}}{\rightleftharpoons}} AB^{\ddagger} \stackrel{k_{breakdown}} \longrightarrow C
 \end{equation*}
 
+The rate constant for breakdown of transition state is approximately 
+the frequency of molecular vibrations, which is on the order of \textbf{$\frac{k_BT}{h}$}, where \emph{h} is \textbf{Planck's Constant}
+
+\begin{equation}
+    k_{breakdown} = \frac{k_BT}{h} \text{ and } v = \frac{d[C]}{dt} = k_{breakdown}[AB\ddagger]
+\end{equation}
+Then, the velocity of the reaction scheme above is: 
+
+\begin{equation}
+    v = \frac{d[C]}{dt} = \frac{k_BT}{h}[AB^{\ddagger}]
+\end{equation}
+\newpage
+
+If we assume that the first step (formation of the transition state) is at 
+equilibrium, then \( \frac{k_+ \ddagger}{k_- \ddagger} = K\ddagger = \frac{[AB\ddagger]}{[A][B]} \),
+so, \( [AB\ddagger] = K\ddagger[A][B] \). If we substitute this value, 
+then the reaction velocity would be \( v = \frac{k_BT}{h}K\ddagger[A][B] \)
+
+Match this up to the simple rate law we would write for a single
+elementary reaction \( \rightarrow v = k[A][B] \). The Eyring Model 
+gives: 
+
+\begin{equation*}
+    k = \frac{k_BT}{h}K\ddagger
+\end{equation*}
+
+The rate constant \emph{k} is largely dependent on the equilibrum constant $K\ddagger$ for forming
+the transition state. We can also write $K\ddagger$ in terms of free energy for reaching the transition state: 
+
+\begin{equation*}
+    K\ddagger = e^{\frac{- \Delta G}{RT}}
+\end{equation*}
+
+Substituting this gives us the equation: 
+
+\begin{equation}
+    k = \frac{k_BT}{h}e^{\frac{- \Delta G}{RT}}
+\end{equation}
+
+While this is different than the \textbf{Arrhenius Equation}, it is similar in that 
+it shows the exponential dependence on an energy barrier.
+
+We can also look at the temperature difference of ln(k) for the Eyring equation like we did for the Arrenhius:
+
+\begin{align*}
+    \frac{d\ln(k)}{dT} &\cong \frac{d(\frac{- \Delta G \ddagger}{RT})}{dT} \\ \\ 
+    &= \frac{d(\frac{- \Delta H \ddagger}{RT} + \frac{\Delta S}{R})}{dT} \\ \\
+    &= \frac{\Delta H \ddagger}{RT^2}
+\end{align*}
+
+The activation energy in the Arrhenius Equation relates closely to the transition state enthalpy in the Eyring model. 
+\newpage
+
+\subsection*{Catalysis by lowering the transition state energy}
+
 \end{document}
