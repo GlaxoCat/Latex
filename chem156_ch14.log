@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.14)  16 NOV 2022 21:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.14)  17 NOV 2022 11:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -120,6 +120,21 @@ LaTeX Info: Redefining \] on input line 2939.
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/ncctools/nccmath.sty
 Package: nccmath 2006/01/20 v1.3 Additional Math Commands (NCC)
 \NCC@fracrulewidth=\dimen158
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count274
@@ -127,20 +142,20 @@ File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 ) (./chem156_ch14.aux)
 \openout1 = `chem156_ch14.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -198,37 +213,37 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 <./Chem 156 Images//Sedimentaton Velocity with Radius.png, id=1, 681.54625pt x 249.93375pt>
 File: ./Chem 156 Images//Sedimentaton Velocity with Radius.png Graphic file (type png)
 <use ./Chem 156 Images//Sedimentaton Velocity with Radius.png>
-Package pdftex.def Info: ./Chem 156 Images//Sedimentaton Velocity with Radius.png  used on input line 39.
+Package pdftex.def Info: ./Chem 156 Images//Sedimentaton Velocity with Radius.png  used on input line 44.
 (pdftex.def)             Requested size: 477.07912pt x 174.95242pt.
 
-Overfull \hbox (7.3241pt too wide) in paragraph at lines 39--40
+Overfull \hbox (7.3241pt too wide) in paragraph at lines 44--45
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--46
+Underfull \hbox (badness 10000) in paragraph at lines 46--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--46
+Underfull \hbox (badness 10000) in paragraph at lines 46--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--46
+Underfull \hbox (badness 10000) in paragraph at lines 46--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--46
+Underfull \hbox (badness 10000) in paragraph at lines 46--51
 
  []
 
 [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Chem 156 Images//Sedimentaton Velocity with Radius.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
@@ -236,25 +251,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--69
 <./Chem 156 Images//Sedimentation Profile.png, id=27, 418.56375pt x 389.455pt>
 File: ./Chem 156 Images//Sedimentation Profile.png Graphic file (type png)
 <use ./Chem 156 Images//Sedimentation Profile.png>
-Package pdftex.def Info: ./Chem 156 Images//Sedimentation Profile.png  used on input line 128.
+Package pdftex.def Info: ./Chem 156 Images//Sedimentation Profile.png  used on input line 133.
 (pdftex.def)             Requested size: 292.99261pt x 272.61664pt.
  [4 <./Chem 156 Images//Sedimentation Profile.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 185--187
+Underfull \hbox (badness 10000) in paragraph at lines 190--192
 
  []
 
@@ -262,35 +277,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--187
 <./Chem 156 Images//Reaction Rates.png, id=39, 791.95876pt x 322.20375pt>
 File: ./Chem 156 Images//Reaction Rates.png Graphic file (type png)
 <use ./Chem 156 Images//Reaction Rates.png>
-Package pdftex.def Info: ./Chem 156 Images//Reaction Rates.png  used on input line 223.
+Package pdftex.def Info: ./Chem 156 Images//Reaction Rates.png  used on input line 228.
 (pdftex.def)             Requested size: 475.17892pt x 193.32373pt.
 
-Overfull \hbox (5.4239pt too wide) in paragraph at lines 223--224
+Overfull \hbox (5.4239pt too wide) in paragraph at lines 228--229
 [][] 
  []
 
 [7 <./Chem 156 Images//Reaction Rates.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 247--249
+Underfull \hbox (badness 10000) in paragraph at lines 252--254
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--249
+Underfull \hbox (badness 10000) in paragraph at lines 252--254
 
  []
 
 <./Chem 156 Images//Rate Law Graph.png, id=46, 374.39874pt x 301.125pt>
 File: ./Chem 156 Images//Rate Law Graph.png Graphic file (type png)
 <use ./Chem 156 Images//Rate Law Graph.png>
-Package pdftex.def Info: ./Chem 156 Images//Rate Law Graph.png  used on input line 266.
+Package pdftex.def Info: ./Chem 156 Images//Rate Law Graph.png  used on input line 271.
 (pdftex.def)             Requested size: 131.04152pt x 105.39532pt.
 [8 <./Chem 156 Images//Rate Law Graph.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
+Underfull \hbox (badness 10000) in paragraph at lines 290--291
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
+Underfull \hbox (badness 10000) in paragraph at lines 290--291
 
  []
 
@@ -298,10 +313,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 285--286
 <./Chem 156 Images//Complex Reaction.png, id=54, 132.495pt x 128.48pt>
 File: ./Chem 156 Images//Complex Reaction.png Graphic file (type png)
 <use ./Chem 156 Images//Complex Reaction.png>
-Package pdftex.def Info: ./Chem 156 Images//Complex Reaction.png  used on input line 312.
+Package pdftex.def Info: ./Chem 156 Images//Complex Reaction.png  used on input line 317.
 (pdftex.def)             Requested size: 66.24733pt x 64.23984pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--327
+Underfull \hbox (badness 10000) in paragraph at lines 329--332
 
  []
 
@@ -309,22 +324,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 324--327
 <./Chem 156 Images//ln(x) vs. time.png, id=69, 485.815pt x 399.4925pt>
 File: ./Chem 156 Images//ln(x) vs. time.png Graphic file (type png)
 <use ./Chem 156 Images//ln(x) vs. time.png>
-Package pdftex.def Info: ./Chem 156 Images//ln(x) vs. time.png  used on input line 476.
+Package pdftex.def Info: ./Chem 156 Images//ln(x) vs. time.png  used on input line 481.
 (pdftex.def)             Requested size: 194.32256pt x 159.79416pt.
- [14 <./Chem 156 Images//ln(x) vs. time.png>] [15] [16] [17] (./chem156_ch14.aux) ) 
+ [14 <./Chem 156 Images//ln(x) vs. time.png>] [15] [16] [17] [18] (./chem156_ch14.aux) ) 
 Here is how much of TeX's memory you used:
- 2746 strings out of 478268
- 43832 string characters out of 5846346
- 348808 words of memory out of 5000000
- 20939 multiletter control sequences out of 15000+600000
+ 3229 strings out of 478268
+ 49635 string characters out of 5846346
+ 359493 words of memory out of 5000000
+ 21415 multiletter control sequences out of 15000+600000
  476986 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,15n,62p,290b,222s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 55i,15n,62p,290b,223s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on chem156_ch14.pdf (17 pages, 687487 bytes).
+Output written on chem156_ch14.pdf (18 pages, 693694 bytes).
 PDF statistics:
- 143 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+ 146 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

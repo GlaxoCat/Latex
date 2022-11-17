@@ -4,6 +4,11 @@
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{nccmath}
+\usepackage{xcolor}
+
+\pagecolor[rgb]{0.,0.,0.1}
+\color[rgb]{1,1,1}
+
 \graphicspath{ {./Chem 156 Images/} }
 
 \setlength{\parskip}{1em}
@@ -562,7 +567,7 @@ If we can measure how long it takes a single molecule to undergo a transition,th
 Now we want to look at what determines the rate constant, k. What makes some reactions innately fast or slow?
 There are two main models that try to explain the mechanisms of chemical reactions and their rate constants. 
 
-\subsection*{The Arrhenius Equaton}
+\subsection*{The Arrhenius Equation}
 
 This is often used to discuss reaction rates in terms of \textbf{molecular collisions}. 
 The rate constant k is determined by:
@@ -588,5 +593,40 @@ If \( N(E) \propto e^{\frac{-E}{RT}} \), then we can find the fraction of molecu
     \frac{e^{-\frac{E_a}{RT}}}{1} &= e^{-\frac{E_a}{RT}}
 \end{align*}
 
+A key element of Arrhenius equation: \textbf{the rate constant depends strongly on the height of an energy barrier.} 
+It also depends on the temperature.
+
+\newpage
+The dependence of k on T can be used to evaluate the activaton energy in the Arrhenius model. 
+
+\begin{equation*}
+    \frac{d(ln(k))}{dt} \cong \frac{d(\frac{-E_a}{RT})}{dT} = \frac{E_a}{RT^2}
+\end{equation*}
+or 
+
+\begin{align*}
+    \frac{d(ln(k))}{d(\frac{1}{T})} \cong \frac{d(\frac{-E_a}{RT})}{d(\frac{1}{T})} &= \frac{d(\frac{-E_a}{RT})}{-\frac{d(T)}{T^2}} \\ \\ 
+    &= \frac{-E_a}{RT^2} = \frac{-E_a}{R}
+\end{align*}
+
+\subsection*{Eyring Transition State Theory}
+This method provides a slightly different way of looking at things that are more explicit about the occurrence of high energy species during 
+a single reaction event. A single reaction step: 
+
+\begin{equation}
+    A + B \stackrel{k} \longrightarrow C
+\end{equation}
+
+is broken down in terms of two steps. 
+\begin{itemize}
+    \item First step: unstable high energy species (the transition state)
+    \item Second step: the transition breaks down to product. 
+\end{itemize}
+
+The double-dagger symbol indicates the transition state. 
+
+\begin{equation*}
+    A + B \stackrel{k_{+ \ddagger }}{\underset{k_{- \ddagger}}{\rightleftharpoons}} AB^{\ddagger} \stackrel{k_{breakdown}} \longrightarrow C
+\end{equation*}
 
 \end{document}
