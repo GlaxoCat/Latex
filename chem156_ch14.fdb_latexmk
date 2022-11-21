@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1668992395 "/Users/andrewchang/Desktop/Latex /chem156_ch14.tex" "chem156_ch14.pdf" "chem156_ch14" 1668992396
-  "/Users/andrewchang/Desktop/Latex /chem156_ch14.tex" 1668992395 34251 8f65c8d3ed8117e260e58df039d775a0 ""
+["pdflatex"] 1669010813 "/Users/andrewchang/Desktop/Latex /chem156_ch14.tex" "chem156_ch14.pdf" "chem156_ch14" 1669010814
+  "/Users/andrewchang/Desktop/Latex /chem156_ch14.tex" 1669010812 34643 362b98588bc2a095b3b25ee630dc6efa ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -78,8 +78,8 @@
   "Chem 156 Images//Sedimentation Profile.png" 1668541005 275592 d71ca446b843deaeb4406abf0e2f8efa ""
   "Chem 156 Images//Sedimentaton Velocity with Radius.png" 1668507287 124064 286d7a9c4a7a0abcc471e9c939de2b4f ""
   "Chem 156 Images//ln(x) vs. time.png" 1668646815 238918 3186bffd4973f2f030e566f1c743186a ""
-  "chem156_ch14.aux" 1668992396 228 8005757f4b4599c9eaf0831244b7a2cc "pdflatex"
-  "chem156_ch14.tex" 1668992395 34251 8f65c8d3ed8117e260e58df039d775a0 ""
+  "chem156_ch14.aux" 1669010814 228 260995050d3a0c206dd65a848423d0a9 "pdflatex"
+  "chem156_ch14.tex" 1669010812 34643 362b98588bc2a095b3b25ee630dc6efa ""
   (generated)
   "chem156_ch14.aux"
   "chem156_ch14.log"
