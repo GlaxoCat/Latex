@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1668721539 "/Users/andrewchang/Desktop/Latex /chem156_ch14.tex" "chem156_ch14.pdf" "chem156_ch14" 1668721539
-  "/Users/andrewchang/Desktop/Latex /chem156_ch14.tex" 1668721538 28673 0eb51cdd22a95f8f6ecc88cc139aa49c ""
+["pdflatex"] 1668992395 "/Users/andrewchang/Desktop/Latex /chem156_ch14.tex" "chem156_ch14.pdf" "chem156_ch14" 1668992396
+  "/Users/andrewchang/Desktop/Latex /chem156_ch14.tex" 1668992395 34251 8f65c8d3ed8117e260e58df039d775a0 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -70,14 +70,16 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1668464684 2826455 fad11f6c1ef1ebde0e9ee1d4b7be46ce ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
+  "Chem 156 Images//Catalysis .png" 1668814914 184913 044da00f45692033d0fc14713d931d9c ""
   "Chem 156 Images//Complex Reaction.png" 1668574116 17972 6c4fec145f18ea8def967eab191dba6c ""
+  "Chem 156 Images//Kbinding.png" 1668816211 77294 9378b7b16e982112c13f97a11bad2518 ""
   "Chem 156 Images//Rate Law Graph.png" 1668572644 151752 43078dfbc43e1975ea39b8d14b33b83d ""
   "Chem 156 Images//Reaction Rates.png" 1668552765 151239 0d703c82b5564e9e0c4a4d6fa9db85b0 ""
   "Chem 156 Images//Sedimentation Profile.png" 1668541005 275592 d71ca446b843deaeb4406abf0e2f8efa ""
   "Chem 156 Images//Sedimentaton Velocity with Radius.png" 1668507287 124064 286d7a9c4a7a0abcc471e9c939de2b4f ""
   "Chem 156 Images//ln(x) vs. time.png" 1668646815 238918 3186bffd4973f2f030e566f1c743186a ""
-  "chem156_ch14.aux" 1668721539 228 132a1852a99728448c909dfb82d03e2e "pdflatex"
-  "chem156_ch14.tex" 1668721538 28673 0eb51cdd22a95f8f6ecc88cc139aa49c ""
+  "chem156_ch14.aux" 1668992396 228 8005757f4b4599c9eaf0831244b7a2cc "pdflatex"
+  "chem156_ch14.tex" 1668992395 34251 8f65c8d3ed8117e260e58df039d775a0 ""
   (generated)
   "chem156_ch14.aux"
   "chem156_ch14.log"

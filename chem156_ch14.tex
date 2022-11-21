@@ -623,8 +623,7 @@ is broken down in terms of two steps.
     \item Second step: the transition breaks down to product. 
 \end{itemize}
 
-The double-dagger symbol indicates the transition state. 
-
+The double-dagger symbol indicates the \textbf{transition state}. 
 \begin{equation*}
     A + B \stackrel{k_{+ \ddagger }}{\underset{k_{- \ddagger}}{\rightleftharpoons}} AB^{\ddagger} \stackrel{k_{breakdown}} \longrightarrow C
 \end{equation*}
@@ -683,5 +682,98 @@ The activation energy in the Arrhenius Equation relates closely to the transitio
 \newpage
 
 \subsection*{Catalysis by lowering the transition state energy}
+
+The Eyring transition state model provides a way to look at catalysis in terms of transition state energies.
+
+Let the rate constant for the uncatalyzed reaction = $k_{uncat}$, and the rate constant for catalyzed reaction 
+= $k_{cat}$. Using the \textbf{Eyring equation} for the rate constant, we can write out the ratio of two rate constants: 
+
+\begin{align*}
+    \frac{k_{cat}}{k_{uncat}} &= \frac{\frac{k_BT}{h}K\ddagger_{cat}}{\frac{k_BT}{h}K\ddagger_{uncat}} \\ \\ 
+    &= \frac{K\ddagger_{cat}}{K\ddagger_{uncat}} \\ \\ 
+    &= \frac{e^{-\frac{\Delta G \ddagger_{cat}}{RT}}}{e^{-\frac{\Delta G \ddagger_{uncat}}{RT}}} \\ \\ 
+    &= e^{\frac{-(\Delta G \ddagger_{cat} - \Delta G \ddagger_{uncat})}{RT}}
+\end{align*}
+
+If a catalyst lowers the transition state energy for a reaction by an energy that amounts to 10RT, then the reaction 
+will be sped up by a factor of $e^{10}$ $\rightarrow$ 22,000. 
+
+How is it that a catalyst lowers the transition state energy of a reaction? 
+\begin{center}
+    \includegraphics[scale = 0.5]{Catalysis .png}
+\end{center}
+\newpage
+
+
+The surface configuration of the enyzme is complimentary to the unstable molecule with only transient existence (intermediate state), 
+or the "activated complex" for the reaction that is catalyzed by that reaction. The enzyme would show attraction for the substrate, which 
+would become attached to it in its active surface region. The substrate would be strained, and typically deform into the configuration of 
+the activated complex. The activated complex then reassumes the original configuration or turns into the product. 
+
+\begin{center}
+    \includegraphics[scale = 0.5]{Kbinding.png}
+\end{center}
+
+We can relate the binding events in the presence of an enzyme to the formation of the transition state. The reactions on the \textbf{top} describe the reaction in 
+the \textbf{absence} of the enzyme. The reactions on the bottom describe reaction with enzyme. The ratio between the rate constants with and without enzymes is: 
+
+\begin{equation*}
+    \frac{k_{cat}}{k_{uncat}} = \frac{K^{\ddagger}_{ES}}{K^{\ddagger}_S}
+\end{equation*}
+
+By providing a binding surface that is complimentary to the transition state form for substrate, the equilibrium constant for reaching the transition state
+is increased by mass action $\rightarrow$ reaction is sped up. 
+
+The ratio for how much a reaction is sped up is: 
+
+\begin{equation*}
+    \frac{k_{cat}}{k_{uncat}} = \frac{K^{\ddagger}_{ES}}{K^{\ddagger}_S} = \frac{K_{binding S \ddagger}}{K_{binding S}}
+\end{equation*}
+
+By this equation: the enzyme speeds up its reaction by binding exceptionally tightly to the transition state form of the substrate. 
+This is what lowers the free energy of the transition state.
+
+\newpage
+
+\subsection*{Practical Consequences of Enzymes Binding Tightly to the Transition State}
+
+\subsubsection*{Transition state analogues as enzyme inhibitors}
+If an enzyme speeds up a reaction by a factor of 1000, then by the math above, the enzyme binds the transition state form of the substrate ($S\ddagger$) 
+more tightly than it binds the substrate. 
+
+A drug molecule that looks like the $S\ddagger$ will bind tightly to the eznyme and thus act as an inhibitor. The main challenge is that the transition state is unstable. 
+The main goal is to find a compound that looks as similar to the transition state, but is still stable. 
+
+\subsubsection*{Creating new enzymes from a natural antibody repertoire}
+The goal was to create novel enzymes that would catalyze useful chemical types of reactions that no natural enzymes had evolved to carry out. 
+
+If you can find an antibody sequence with a high affinity for the transition state of a desirable reaction, then you have found an enzyme for that reaction. 
+
+\subsubsection*{Computational Enzyme Design}
+Instead of designing a novel protein from scratch, take a natural protein that has a surface cleft suitable for binding a compound of about the right size. 
+Then modify the amino acid sequence mainly within the binding site cleft. No need to create transition state analogs, and instead only requires an accurate model 
+for what the transition state is likely to look like. Computer programs can then design reasonable models of transition states. 
+
+The most challenging part is designing amino acid changes into a protein so that the TS is tightly bound. One issue concerns the calculation of free energies for large systems like 
+proteins and their complexes. 
+
+Changing amino acid sequences can also cause loss of stability and aggregation, or make alternate (non-native) configurations more stable than the intended structure. 
+
+\newpage
+
+\subsection*{Kinetic Parameters of Natural Enzymes}
+Part of the complexity concerns the saturation behavior of enzyme kinetics. 
+
+\begin{equation*}
+    v = \frac{[E_{total}] k_{cat}[S]}{[S] + K_M}
+\end{equation*}
+
+An enzyme that has a high $k_{cat}$ may not be great if it does not bind substrate well (i.e. if $K_M$ is high). 
+The best conditions is to have \textbf{high} $k_{cat}$ and \textbf{low} $K_M$. 
+
+The ratio of $\frac{k_{cat}}{K_M}$ is considered the general measure of efficiency of an enzyme. $k_{cat}$ is the maximum velocity at any substrate concentration. 
+$\frac{k_{cat}}{K_M}$ is the slope of the velocity curve in its linear region well below saturation. We are evaluating the standard Michaelis-Menten velocity equation (above) at $[S] \ll K_M$. 
+
+Typically, $K_M$ values exhibited by natural enzymes tend to be roughly in the same range as natural cellular concentration of the substrate on which they operate. 
 
 \end{document}
