@@ -297,15 +297,15 @@
     Now, we want to consider events that are more complex than one step reactions. Consider 
     the following example: 
 
-    \begin{center}
-        
-    \end{center}
+    \begin{equation*}
+        A \stackrel{k_1} \longrightarrow B \stackrel {k_2} \longrightarrow  C
+    \end{equation*}
    
     This gives the following equations:
 
     \begin{align*}
         \frac{d[A]}{dt} &= -k_1[A] \\ \\
-        \frac{d[B}{dt} &= k_1[A] - k_2[B] \\ \\
+        \frac{d[B]}{dt} &= k_1[A] - k_2[B] \\ \\
         \frac{d[C]}{[dt]} &= k_2[B]  
         %\frac{1}{[A]} - \frac{1}{[A]_0} &= 2kt
     \end{align*}
@@ -354,7 +354,7 @@
     Now rearrange to isolate [B]: 
 
     \begin{equation}
-        [B] = \frac{k_1[A]}{k_2 + k_1} 
+        [B] = \frac{k_1[A]}{k_2 + k_{-1}} 
     \end{equation}
 
     Now go back to the original reaction scheme. The overall reaction velocity is \( v = \frac{d[C]}{dt} \), but 
@@ -452,10 +452,10 @@
         \frac{d[A]}{dt} &= \frac{d[\bar{A} + x]}{dt} = \frac{dx}{dt} \\ \\ 
         \frac{d[A]}{dt} &= -k_1[A] + k_{-1}[B] \\ \\
         \frac{d[A]}{dt} &= -k_1[\bar{A} + x] + k_{-1}[\bar{B} - x] \\ \\
-        &= k_{-1}\bar{B} - k_{-1}\bar{A} - x(k_1 + k_{-1})
+        &= k_{-1}\bar{B} - k_{1}\bar{A} - x(k_1 + k_{-1})
     \end{align*}
 
-    The term \(k_{-1}\bar{B} - k_{-1}\bar{A} = 0 \) because \( \frac{\bar{B}}{\bar{A}} = K = \frac{k_1}{k_{-1}} \)
+    The term \(k_{-1}\bar{B} - k_{1}\bar{A} = 0 \) because \( \frac{\bar{B}}{\bar{A}} = K = \frac{k_1}{k_{-1}} \)
 
     So, after setting the above to 0, the equation yields: 
 
@@ -504,7 +504,7 @@ Now consider this second order reversible reaction:
     A + B \stackrel{k_1}{\underset{k_{-1}}{\rightleftharpoons}} C
 \end{equation*}
 
-There is only one transformation, st he distance can still be described by \textbf{x}:
+There is only one transformation, so the distance can still be described by \textbf{x}:
 
 \begin{align*}
     [A] &= \bar{A} + x \\ \\ 
@@ -515,7 +515,7 @@ There is only one transformation, st he distance can still be described by \text
 We can use the same approach from the above to describe the change in concentrations: 
 
 \begin{align*}
-    \frac{d[A]}{dt} &= \frac{d\bar{A} + x}{dt} = \frac{dx}{dt} \\ \\
+    \frac{d[A]}{dt} &= \frac{d(\bar{A} + x)}{dt} = \frac{dx}{dt} \\ \\
     \frac{d[A]}{dt} &= -k_1(\bar{A} + x)(\bar{B} + x) + k_{-1}(\bar{C} - x) \\ \\ 
     &= k_{-1}\bar{C} - k_1\bar{A}\bar{B} - x(k_1(\bar{A} + \bar{B}) + k_{-1}) - k_1x^2
 \end{align*}
