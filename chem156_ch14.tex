@@ -785,4 +785,108 @@ From quantum mechanics, we know that molecules can exist only in discrete energy
 can be driven by absorption/emission of electormagnetic radiation (photons) if the energy of the phton matches the energy difference of the 
 transition. 
 
+The relationship between  frequency or wavelength of radiation and energy is: 
+
+\begin{equation*}
+    E = hv = \frac{hc}{\lambda}
+\end{equation*}
+
+\begin{center}
+    \includegraphics[scale = 0.75]{energy transitions.png}
+\end{center}
+
+Simple molecules (like single atoms) show very sharp absorption and emission bands. 
+
+They only undergo transitions at very narrow wavelengths $\longrightarrow$ \textbf{Rydberg Series}. 
+
+However, complex molecules have complex spectra. Presence of multiple atoms in a molecule introduces
+dependence of energy on nuclear positions. 
+
+Nuclear motions give rise to vibrational energy states. The energy differences in vibrational states is much 
+smaller than those between electronic states. Within vibrational states are even smaller rotational states. 
+This heirarchal level of complexity allows for a huge number of transitions with closely spcaed energies. 
+
+As a result, absorption and emission spectra for larger molecules are coplex and more continuous in nature rather than discrete. 
+
+\begin{center}
+    \includegraphics[scale = 0.75]{energy states.png}
+\end{center}
+
+Consider an energy associated with wavelength of 400 nm in the violet region of the visible spectrum.
+\begin{equation*}
+    E = hv = \frac{hc}{\lambda} = 4.1 \times 10^{-21} J 
+\end{equation*}
+This is equivalent to about 120$K_B$T. According to the Boltzmann equation ($e^{-\frac{E}{K_BT}}$), the probability of a molecule being in this excited state 
+rather than ground state is basically zero. 
+
+Repeat this for a typical vibrational transition. Consider a typical stretch where $\lambda = 1.9$  $\mu M.$
+The energy is about \(1.4 \times 10^{-19} J \) or about 25 $K_BT$. The probability is much higher here. 
+
+\textbf{Conclusion:} At ordinary temperatures and unless otherwise excited, molecules almost exclusively populate the lowest vibrational state of the lowest electronic state. 
+\textbf{A high probability transition requires the initial energy state to be well-populated}.
+
+\subsection*{Fluorescence}
+
+Our analysis from above tells us that an absoprtion transition usually happens from the ground vibrational state 
+of the ground electronic state. 
+
+The next question is: to what higher electronic energ state is a molecule likely to be excited by absorption. 
+
+\textbf{General Idea:} Lowest energy nuclear positions for a molecule are slihgtly different for different eletronic states. 
+\newpage
+
+\begin{center}
+    \includegraphics[scale = 0.50]{fluorescence.png}
+\end{center}
+
+Consider the image below. The two black currves indicate the classical energy of a molecule as a function of its nuclear positions in two different
+energy states. The minimum energies occur at slighly different nuclear positions. These are illustrated by the green lines coming from the lowest horiziontal line
+in each curve. 
+
+The width of the lines illustrate the range of nuclear positions that are allowed in each vibrational state. 
+The timescale for photon absorption is much shorter than the timescale for nuclear motions. This means that electronic transitions happen 
+"vertically" in the disgram shown. 
+
+$\underline{The \text{ } Franck-Condon \text{ } Principle:}$ When a molecule is undergoing an electronic transition (like ionization), the nuclear configuration of the molecule experiences no significant change.
+
+Nuclei are much bigger than electrons, and electronic transitions happen faster than the nuclei can respond. When the nuclei finally realigns itself
+with the new electronic configuration, it then undergoes a \textbf{vibration}. 
+
+If an electronic transition must occur without appreciable movement of nuclei, then it must occur to a vibrational state for which initial nuclear positions are allowable. 
+
+After excitation, according to the Boltzmann equation, a molecule must return to the ground state. This can occur with the emission of a photon. This is known as 
+\textbf{fluorescence.} The timescale for fluorescence is typically in the \( 10^{-5} - 10^{-8} sec \) range. 
+This is long enough for thermal vibrations and collisions to allow the molecule to descent to lower vibrational states within excited electronic state, before returning 
+to the ground electronic state. 
+
+The \textbf{key consequence} is that the fluorescence emission spectrum for a molecule is shifted to lower energy and longer wavelength compared to absoprtion spectrum.
+This is known as \textbf{Stoke's Shift}. 
+
+\begin{center}
+    \includegraphics[scale = 0.50]{stokes shift.png}
+\end{center}
+
+\subsubsection*{Uses and Advantageous Properties of Fluorescence}
+Fluorescence offers a high degree of sensitivity for detecing and measuring concentrations of specific molecules. 
+The high sensitivity of fluorescence comes from two factors. 
+
+First is the shift in wavelength from incident wavelength to emission wavelength. In an absorption experiment involving 
+dilute molecule, you must analyze a small difference between two large numbers: the number of photons transmitted by a blank compared to 
+number transmitted by the sample. 
+
+But, in a fluorescence experiment, the change in wavelength makes it possible to analyze the number of emitted photons without interference from 
+transmitted photons, which have the same wavelength as the incident light. 
+
+\newpage
+
+This requires a second monochromator placed between the sample and the detector, and a first monochromator is required between the light source and the sample. 
+Extra level of sensitivity comes from the ability to monitor fluorescence in a direction different from the path of the transmitted beam. Scatted photons travel in all directions
+including the same path as fluorescent photons. But, since their wavelength is the same as the incident wavelength, they are distinguishable. 
+
+\begin{center}
+    \includegraphics[scale = 0.35]{fluorescence experiment.png}
+\end{center}
+
+Proteins typically have natural fluorescence owing to the presence of tryptophan amino acids. 
+
 \end{document}
