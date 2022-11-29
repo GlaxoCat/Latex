@@ -887,6 +887,96 @@ including the same path as fluorescent photons. But, since their wavelength is t
     \includegraphics[scale = 0.35]{fluorescence experiment.png}
 \end{center}
 
-Proteins typically have natural fluorescence owing to the presence of tryptophan amino acids. 
+Proteins typically have natural fluorescence owing to the presence of tryptophan amino acids. A particularly useful feature of fluorescence is its 
+sensitivity to chemical environment. The greater sensitivity to environment for fluorescence compared to absorbance relates in part to the longer time 
+scale of fluorescence. In general, increased flexibility and enviornmental polarity lead to lower fluorescent intensity. The peak emission wavelength can also 
+be affected. 
+
+For example, fluorescence of tryptophan increases by a factor of 4 in a low polarity solvent (like DMSO, $\epsilon$ = 35) compared to water ($\epsilon$ = 80). 
+Tryptophan resides almost always become less flexible and more rigidly held in the folded state of a protein, thus leading to higher fluorescence. 
+
+\newpage
+
+\subsection*{Kinetics of Fluorescence and competing routes for return to ground state}
+
+ After a molecule has been driven to an excited state by absorbing a photon, there are several 
+ routes it can take to return to ground state. The relative rates of these processes relates directly to which 
+ pathways dominate for a given molecule. 
+
+ If the rate constant for fluorescent emission is higher than the rate constants for other processes, then most 
+ of the excited molecules will return to the ground state by way of fluorescent emission. 
+
+ \begin{center}
+    \includegraphics[scale = 0.5]{ground states.png}
+ \end{center}
+
+ A number of phenomena affect fluorescence, including chemical environment, so fluorescence can be used to monitor
+ various events that alter the environment of a fluorophore in solution. 
+
+ We can lump together the various non-fluorescent pathways for return to ground state under a single rate constant, \textbf{$k_{other}$}. 
+ Various events can then be analyzed in terms of the effects they have on the relative rates of $k_{fluor}$ and $k_{other}$. 
+
+ With respect to kinetic treatments, fluorescence experiments can be of two essentially different types: 
+ 
+ 1. Under continuous illumination where steady state behavior is assumed
+
+ 2. Following a brief pulse of incident light, after which time-dependent measurements are made.
+
+ \begin{center}
+    \includegraphics[scale = 0.5]{fluorescent experiment.png}
+ \end{center}
+
+ \subsubsection*{Constant Illumination}
+ Under constant illumination, the concentration of the excited fluorophore ($P^*$) is not changing. 
+ Setting $\frac{d[P^*]}{dt} = 0$: 
+
+ \begin{align*}
+    \frac{d[P^*]}{dt} &= 0 \\ \\ 
+    &= k_{abs}[P] - (k_{fluor} + k_{other}[P^*])
+ \end{align*}
+
+ Rearranging to obtain an expression for $[P^*]$: 
+
+ \begin{equation*}
+    [P^*] = \frac{k_{abs}[P]}{k_{fluor} + k_{other}}
+ \end{equation*}
+
+ Then, the fluorescent intensity $I_{fluor}$ is given by: 
+
+ \begin{align*}
+    I_{fluor} &= k_{fluor}[P^*] \\ \\
+    &= \frac{k_{abs}[P] * k_{fluor}}{k_{fluor} + k_{other}}
+ \end{align*}
+
+ Since the rate of photon absorption is $k_{abs}$[P], the ratio of number of phtoons emitted to the number absorbed - a fractional quantity known as the \textbf{quantum yield Q}  - 
+ is given by: 
+
+ \begin{equation*}
+    Q = \frac{k_{fluor}}{k_{fluor} + k_{other}}
+ \end{equation*}
+
+ The quantum yield and intensity of fluorescence observed under constant illumination is decreased by events in solution that increase the rates of non-fluorescent "other" pathways
+ for return to ground state. 
+
+ \begin{center}
+    \includegraphics{quantum.png}
+ \end{center}
+
+ An example is shown above. The binding of a fluorescent molecule to a protein would decrease the non-fluorescent pathways by reducing mobility of the fluorophore and thereby increase the 
+ quantum yield along with the steady state fluorescence intensity. 
+
+ \subsubsection*{Time-resolved Fluorescence}
+ An excitation pulse can be applied and the fluorescence intensity (which must decay back to zero) can be monitored over time. The same kinetic scheme as above can be used if 
+ we remove the continuous absorption event. This becomes a simple case of exponential decay with a total rate constant of $k_{fluor} + k_{other}$ and a decay time of: 
+
+ \begin{equation*}
+    \tau = \frac{1}{k_{fluor}}+ k_{other}
+ \end{equation*}
+
+\newpage
+
+\section*{Chapter 18: Special Topics in Biochemical Spectroscopy}
+
+
 
 \end{document}

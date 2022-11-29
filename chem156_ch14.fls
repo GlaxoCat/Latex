@@ -331,6 +331,21 @@ INPUT ./Chem 156 Images//fluorescence experiment.png
 INPUT ./Chem 156 Images//fluorescence experiment.png
 INPUT ./Chem 156 Images//fluorescence experiment.png
 INPUT ./Chem 156 Images//fluorescence experiment.png
+INPUT ./Chem 156 Images//ground states.png
+INPUT ./Chem 156 Images//ground states.png
+INPUT ./Chem 156 Images//ground states.png
+INPUT ./Chem 156 Images//ground states.png
+INPUT ./Chem 156 Images//ground states.png
+INPUT ./Chem 156 Images//fluorescent experiment.png
+INPUT ./Chem 156 Images//fluorescent experiment.png
+INPUT ./Chem 156 Images//fluorescent experiment.png
+INPUT ./Chem 156 Images//fluorescent experiment.png
+INPUT ./Chem 156 Images//fluorescent experiment.png
+INPUT ./Chem 156 Images//quantum.png
+INPUT ./Chem 156 Images//quantum.png
+INPUT ./Chem 156 Images//quantum.png
+INPUT ./Chem 156 Images//quantum.png
+INPUT ./Chem 156 Images//quantum.png
 INPUT chem156_ch14.aux
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb
