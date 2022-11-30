@@ -976,7 +976,324 @@ Tryptophan resides almost always become less flexible and more rigidly held in t
 \newpage
 
 \section*{Chapter 18: Special Topics in Biochemical Spectroscopy}
+\subsection*{Polarization and Selection Rules}
 
+\begin{center}
+    \includegraphics[scale = 0.5]{spectroscopy.png}
+\end{center}
+
+Orientation plays an important role in spectroscopy. The effects become apparent in spectroscopy experiments conducted using polarized light. Light emitted from an ordinary source (light bulb)
+carries photons whose electric field vectors point in all possible directions perpendicular to the direction of travel. 
+
+We know that for a photon of light to be absorbed and cause a transition from an intiial state to a final state that the energy of the photon must be correct (discrete quantum levels). 
+But the \textbf{direction of its electric field vector} is also important. 
+
+In absorption spectroscopy, the extinction coefficient relates to the strength/probability of a transition by being proportional to the square of a transition dipole moment, $\stackrel{\rightarrow} \mu$.
+In the general form of the transition dipole moment: 
+
+\begin{equation*}
+    \stackrel{\rightarrow} \mu = \int \psi_i \stackrel{\rightarrow} x \psi_f  d\stackrel{\rightarrow}x
+\end{equation*}
+
+where $\stackrel{\rightarrow} x $ describes a general position vector in space, and $\psi_i$ and $\psi_f$ are the quantum mechanical wavefunctions for the initial and final energy states. 
+
+\newpage
+We can divide these into individual directions in x, y, z components. The probability of abosrbing a photon polarized along the x direction is related to the x component of the transition dipole moment, evaluate
+as: 
+
+\begin{align*}
+    \mu_x = \int \psi_ix\psi_fdx \\ \\ 
+    \mu_y = \int \psi_iy\psi_fdy \\ \\ 
+    \mu_z = \int \psi_iz\psi_fdz  
+\end{align*}
+
+Analyzing whether electronic transitions can(not) occur when the light 
+is polarized in certain directions can be simplified by using a treatment that 
+considers the symmetry vs. anti-symmetry of the initial and final wavefunctions. 
+
+A reminder for symmetric and anti-symmetric functions: 
+
+- Symmetric: f(x) = -f(x) 
+
+- Anti-symmetric: f(-x) = -f(x)
+
+Functions with even exponents \( (x^0, x^2, x^4...) \) are symmetric, while functions in the odd power \( (x^1, x^3, x^5...) \) 
+are anti-symmetric. 
+
+\begin{center}
+    \includegraphics[scale = 0.5]{symmetry.png}
+\end{center}
+
+Odd (anti-symmetric) functions integrate to zero while even (symmetric) functions do not. 
+In 3D, where integration would be over all dimensions, the result integrates to zero if the function is odd with respect to \textbf{any} of the three 
+spatial variables. 
+
+
+
+Consider an electronic transition between a $\pi$ bonding molecular orbital and $\pi^*$ anti-bonding molecular orbital. 
+Transitions are common in conjugated double bond systems. Both molecular orbitals are effectively combinations of two side-by-side 
+p orbitals. 
+
+\begin{center}
+    \includegraphics[scale = 0.5]{pi orbitals.png}
+\end{center}
+
+Signs of the two p orbitals are aligned in the $\pi$, but oppositely oriented in the $\pi*$ molecular orbital. 
+This creates an extra nodal plane in the latter case. 
+
+Since even/odd(ness) is an exponential property, products of functions behave according to the addition of even and odd numbers. 
+Even + Even = Even. Even + Odd = Odd. Odd + Odd = Even. 
+
+We need to make a separate analysis to consider transition dipole component for light polarized in each possible direction. 
+
+For example, in the case of light polarized along the x direction, the term 'x' in the middle of the integral can be understood as being 
+\( x^1y^0z^0 \), which is thus odd with respect to x, and even with respect to y and z. We can construct a table to analzye $\mu_x$:
+
+\begin{center}
+    \includegraphics{wavefunctions.png}
+\end{center}
+\newpage
+
+By looking at this table, we can see that the total function inside the integral is even across all three variables. 
+Thus we can say that a \( \pi \rightarrow \pi^* \) transition can occur by absorption of a photon polarized along x. 
+This transition is \textbf{allowed}. Note that the allowable transition for polarization along x does not mean that the photon's 
+direction of travel is along x. In fact, the direction of travel would have to be $\perp $ to x. 
+
+We can also evaluate transition dipoles for light polarized along y or z: 
+
+\begin{center}
+    \includegraphics[scale = 0.5]{more wavefunctions.png}
+\end{center}
+
+Because the total function is odd for at least one variable, the integral will eventually vanish to 0. This means that 
+$\mu_y$ and $\mu_z$ will vanish. These transitions are \textbf{forbidden}. The \( \pi \rightarrow \pi^* \) transition cannot 
+happen via absorption of a photon polarized along y or z. 
+
+\subsubsection*{Example of absorption of polarized light by an oriented pigment}
+
+Although light may only be absorbed when the electric field is oriented in a particular direction relative to the chromophore, 
+the effects of this are often not evident in experiments done in solution, since the absorbing chromophore is present in all possible 
+orientations. 
+
+The dependence of absorption on direction of polarization can sometimes be seen in a crystalline sample 
+where the chromophore exists in the same orientation throughout the crystal specimen. 
+
+\subsection*{Fluorescence Experiments with Polarized Light}
+Interesting things occur when a sample absorbs polarized light and then reemits photons by fluorescence.
+We will assume that if a molecule absorbs a photon polarized in a specific direction, then by fluorescence, it will
+emit a photon polarized in the same direction \textbf{if the molecule has not changed its orientation} between absorption and emission. 
+
+How do you expect a molecule to rotate in the time between photon absorption and re-emission via fluorescence? This depends on the relative
+rates of fluorescence and molecule rotation in solution. 
+
+If random molecular rotations occur slowly relative to fluorescence, then fluorescent protons will be polarized in the same direction as the 
+incident (polarized) light. If the rotations instead happen quickly relative to fluorescence, then 
+emitted photons will have electric field vectors oriented in all directions equally. 
+
+Thus, it is possible to learn about the relative rates of fluorescence vs molecular rotation by studying the degree to which emitted photons are 
+polarized in the same way as the incident light. If the timescale for fluorescence is known then the time scale for molecular rotations can be determined. 
+
+There are some essential features of a fluorescence polarization or fluorescence anisotropy experiment. Two polarizing filters are required: one before the sample, and one after the sample. 
+Monochromators are also required to select appropriate wavelengths for the incident and emitted photons being detected. This allows to measure the relative intensity of emitted light that is polarized in 
+different directions; this is a measure of how much molecules have rotated after absorption and before emission. 
+
+\begin{center}
+    \includegraphics[scale = 0.5]{polarizer.png}
+\end{center}
+
+The intensity of light emitted parallel to the incident light is denoted $I_\parallel$, and the intensity emitted perpendicular to the incident light is denoted $I_\perp$. 
+The unitless measure of how much stronger the parallel emission is compared to the perpendicular is described by \textbf{fluorescence anisotropy, r}. r is defined by: 
+
+\begin{equation*}
+    r = \frac{I_{\parallel} - I_{\perp}}{I_{\parallel} + 2I_{\perp}}  \longrightarrow (0 \leq r \leq  1)
+\end{equation*}
+
+If \textbf{r} is close to 0 (no anisotropy) then the intensity is the same for $\parallel$ and $\perp$ emission. This means that the rate of molecular rotation is much faster than the rate of fluorescence. 
+If r is close to 1 (perfect anisotropy), then the emission in the $\perp$ orientation is negligible. The rate of fluorescence is much faster than the rate of molecular rotation. 
+
+\newpage
+
+How does fluorescence anisotropy relate to relative rates of fluorescence and molecular rotation. Unimolecular rates be described (reciprocally related) decay times. The decay time for changes
+in molecular orientation is referred to as rotational correlation time, denoted as $\tau_{rot}$. 
+
+Fluorescence decay time is denoted as $\tau_{fluor}$. Perrin's equation states that:
+
+\begin{equation*}
+    \frac{r}{r_0} = \frac{\tau_{rot}}{\tau_{rot} + \tau_{fluor}}
+\end{equation*}
+
+This equation shows that if the decay time for rotation is much longer than decay time for fluorescence ($\tau_{rot}$ $\gg$ $\tau_{fluor}$), then anisotropy (r) would be 1.
+r would instead be 0 if the decay time for rotation was much shorter than for fluorescence. $r_0$ is needed to deal with an imperfect alignment of emitted and absorbed photons that occurs even without any molecular 
+rotation.  
+
+The rotational correlation is directly related to molecular size by: 
+
+\begin{equation*}
+    \tau_{rot} = \frac{\eta V}{RT}
+\end{equation*}
+
+where $\eta$ is viscosity, and V is molecular volume. 
+
+In practice, fluorescence anisotropy experiments are often used not to estimate molecular volumes, but in a more qualitative way, comparing the degree of anisotropy before and after some potential binding event. 
+Two kinds of experiments are possible as illustrated. Under constant illumination (steady-state), events that lead to slower rotational tumbling give an increase in fluorescent anistropy (r), since less tumbling
+occurs prior to fluorescent emission. The event \textbf{must} cause a change in the rotational correlation time of the fluorescent molecule. 
+
+In a time-resolved experiment following an incident pulse, anisotropy will decay more slowly if the rotational tumbling is slower. 
+
+\begin{center}
+    \includegraphics[scale = 0.5]{anisotropy.png}
+\end{center}
+
+\subsection*{Fluorescent Resonant Energy Transfer (FRET)}
+Sometimes, an excited chromorphore can return to ground state not by emission, but by transferring exciton energy to a nearby chromophore. 
+The efficiency of this process depends on two main factors. 
+
+1. The degree of overlap between the emission spectrum of the first chromophore (donor) and the absorption spectrum of the second (acceptor). 
+
+\begin{equation*}
+    \includegraphics[scale = 0.5]{FRET.png}
+\end{equation*}
+
+According to the Förster Equation, transfer efficiency depends strongly on separation (R) between donor and acceptor:
+
+\begin{equation*}
+    Efficiency = \frac{1}{1 + (\frac{R}{R_0})^6}
+\end{equation*}
+
+$R_0$ is particular for the donor and acceptor pair and depends cheifly on the quality of the spectral overlap between the donor emission and acceptor absorbance. 
+When \( R = R_0 \), the efficiency is $\frac{1}{2}$. A good donor will have a relatively high value of $R_0$. FRET experiments are useful mainly in the $10 - 100 \stackrel{o} A$ range. 
+
+\newpage
+
+Looking at our shceme from the previous chapter showing the routes for return to ground state, we can see that energy transfer by FRET is a phenomenon that competes with 
+the fluorescent emission from the donor. Thus the presence of the acceptor chromophore wreduces donor fluorescence and speeds decay of excited donor and its fluorescence. 
+
+\begin{center}
+    \includegraphics[scale = 0.5]{fret 2.png}
+\end{center}
+
+The experiments can be done in two ways, either as a constant illumination (where fluorescent intensity) is decreased in the presence of acceptor chromophore, or as a time-resolved experiment,
+where the speed of decay is increased by the acceptor and characteristic decay time is decreased time. 
+
+FRET experiments are useful when detecting proximity or approximating the distance between two molecules or functional groups might be informative. Unless one of the two components of interest is
+naturally fluorescent, this involves labelling both components (one with donor fluorophore, one with acceptor). 
+
+\subsection*{FRET in Biology}
+
+FRET plays a key role in photosynthesis. The key step that converts light energy and chemical energy in photosynthesis takes place in a transmembrane protein complex known as the photosynthetic reaction center (RC). 
+The RC binds a 'special pair' of cholorophyll molecules in a parallel and partially overlapping arrangement. This group makes the special pair suitable for participating in the primary photochemical event. 
+
+After the pair is excited, instead of returning to ground state, an electron leave the special pair and jumps along a path of neighboring pigment cofactors (chlorophylls and carotenoids) bound to the protein. 
+This leads the electron across the membrane and gneerates an electrochemical difference between the two sides. This forms the basis for chemical energy conversion in photosynthesis. 
+
+RC alone is not suited for absorbing photons that are hitting the photosynthetic membrane everywhere and with a broad ragne of wavelenghts. Other transmembrane proteins known as light harvesting complexes (LH)
+bind a large number of pigment molecules and surround the RC. 
+
+LH proteins are designed to hold their pigment molecules in very specific positions with respect to each other. This allows the pigment molecules to absorbe photons efficiently throughout the membrane,
+and then transfer that exciton energy (FRET) to pigment molecules closer to RC. Each transfer loses some energy, but ultimately the energy id selivered to the special pair in RC in order to drive the primary photochemical event. 
+
+\subsection*{Spectroscopy of Chiral Molecules: Optical Rotation and Circular Dichroism}
+Chiral molecules exhibit special spectroscopic phenomena that show when they interact with polarized light. 
+
+\subsubsection*{Circularly Polarized Light}
+In plane polarized light, the electric field vector oscillates in a plane. Avector that oscillates up and down vertically can be generated by the sum of two vectors that rotate
+in a circle in opposite directions at equal frequency. 
+
+When they are both vertical (up or down), they add to give a vertical result, where as when they are horizontal they oppose each other and cancel. 
+\begin{center}
+    \includegraphics[scale=0.5]{circular polarization.png}
+\end{center}
+
+\newpage
+
+From the figure above, the 'right' component forms a right-handed helix, while the 'left' component forms the left-handed helix. The sense of the rotation is that a fixed observer looking towards the 
+source will see the direction of the E field vector. \textbf{Clockwise in time} for right circularly polarized light. \textbf{Counter-clockwise for left circularly polarized light}. 
+
+By considering plane polarized light as a sum of two circular components (and as helical waves) we can see why chiral molecules might interact differently with left vs right polarized light. 
+Helices are chirals, as is a biological macromolecule. Think of your feet and shoes (both of which are chiral). A particular shoe interacts differently with each foot. 
+
+What are the distinct kinds of interactions that a chiral molecule (foot) can make with a chiral wave (shoe)? Two effects are the differences in absorption and index of refraction. 
+
+\subsubsection*{Circular Dichroism}
+
+If the left and right circularly polarized components (within a beam of plane polarized light) are absorbed to the same extent when passing through a sample, then 
+the transmitted light should naturally remain plane polarized. 
+
+But if one component is absorbed more strongly than the other, this forms the basis for circular dichroism (CD). For example, if the left circularly polarized component is absorbed slightly more, 
+then the remaining transmitted beam should have a slightly larger component of the right circularly polarized type. If we add up oppositely rotating vectors of unequal magnitutde, we get an elliptical shape 
+for the resulting path of the electric field vector. 
+
+The magnitude of circular dichroism is described by a parameter referred to as \textbf{ellipticity}, $\theta$. 
+
+\begin{center}
+    \includegraphics[scale = 0.5]{ellipticity.png}
+\end{center}
+
+$\theta$ is the angle formed by a line between the tips of the transmitted electric field vectors in the $\perp$ directions of maximum and minimum magnitude. 
+The elllipticity can be measured by a CD spectrophotometer, this requires additional polarizers fromt eh sample and the detector. 
+
+\newpage
+
+Ellipticity effect originates from a difference in extinction coefficients (how strongly a substance absorbs light at a particular wavelength). The equation for $\theta$ in terms of absorbance for left vs right is: 
+
+\begin{align*}
+    \theta &= \frac{2.303(A_L - A_R)}{4} \\ \\
+    &= \frac{2.303}{4}dC(\epsilon_L - \epsilon_R)
+\end{align*}
+
+where A = absorbance, $\epsilon$ = extinction coefficient, d is the path length of the light through sample, and C is the molar concentration. Recall from Beer's Law that \( A = \epsilon C d \). 
+
+According to the equation above, higher absorption of the left light (which means higher right component transmitted) yields a clockwise-rotating elliptical field vector $\rightarrow$ positive $\theta$. 
+2.303 comes from ln(10) which relates to the conventional use of $log_{10}$. 
+
+\subsubsection*{Optical Rotation}
+
+The CD effect arises from differences in absorption. A different effect arises when left and right circularly polarized components travel through the sample at different speeds. 
+What happens when light goes through a sample more slowly? The frequency of the wave is unchanged, but the wavelength changes. The speed of light is inversely dependent 
+on the index of refraction, \textbf{n}. The index of refraction here may be different for the left component compared to the right:
+
+\begin{align*}
+    c_L &= \frac{c_0}{n_L}
+    c_R &= \frac{c_0}{n_R}
+\end{align*}
+
+where $c_0$ is the speed of light in a vacuum. 
+
+Then, \( \lambda_L = \frac{c_L}{v} = \frac{c_0}{n_L v} \). How many oscillatory cycles does a light beam make when it passes through a sample of thickness \textbf{d}. The answer is $\frac{d}{\lambda}$. 
+
+The angular rotation in radians would be $\frac{2 \pi d}{\lambda_L}$. After substituting $\lambda$ with the above equation, the angular rotation is then \( \frac{2 \pi d n_L v}{c_0} = \frac{2 \pi d n_L}{\lambda} \).
+
+The final orientation of the polarization direction is determined by the sum of left and right vectors, whose angle is the average of the two component vectors. The resulting transmitted wave should be rotated according to half the difference between their
+separate angles of rotation. 
+
+\begin{center}
+    \includegraphics[scale = 0.5]{angle of rotation.png}
+\end{center}
+
+This gives for the angle of rotation of the polarized beam: 
+
+\begin{equation*}
+    \alpha = \frac{\pi d}{\lambda} (n_L - n_R)
+\end{equation*}
+
+According to this equation, the optical rotation angle $\alpha$ is positive if the index of refraction is higher for the left circularly polarized light. 
+This means that its speed through the sample will be slower, thus the wave will oscillate further compared to the right circularly polarized light. 
+
+If you look at the above figure, you notice that if the left polarized light rotates further as a function of position along the direction of travel ($\alpha$ positive), it will rotate clockwise. This is 
+opposite of the counterclockwise rotation of the E field vector seen by the fixed observer for left-handed. If \( n_L - n_R > 0 \), then the rotation of the electric field vector is clockwise.
+
+If the optical rotation is expressed as a molar quantity by dividing by concentration and normalized for path length, an equation for molar optical rotation is obtained:
+
+\begin{equation*}
+    [\alpha] = \frac{100 \alpha}{Cd} = \frac{100 \pi}{\lambda C}(n_L - n_R)
+\end{equation*}
+
+As with the CD effect, for most molecules in solution, the difference in index of refraction \( (n_L - n_R) \) is very small. But the path length d is about $10^4$ or more times longer than 
+the wavelength $\lambda$, that the optical rotation is non-negligible. Optical rotation can be used to identify chiral molecules.
+
+\subsubsection*{Optical rotation and circular dichroism are interrelated}. 
+
+Both optical rotation and circular dichroism are related to each other and they occur in the same molecular sample. Both arise from complex relationships between electric transition dipole moments and magentic dipole moments in a molecule. 
 
 
 \end{document}

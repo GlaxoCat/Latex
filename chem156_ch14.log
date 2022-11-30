@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.14)  28 NOV 2022 17:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.14)  29 NOV 2022 20:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -384,20 +384,95 @@ File: ./Chem 156 Images//quantum.png Graphic file (type png)
 <use ./Chem 156 Images//quantum.png>
 Package pdftex.def Info: ./Chem 156 Images//quantum.png  used on input line 962.
 (pdftex.def)             Requested size: 360.34537pt x 257.9631pt.
- [30 <./Chem 156 Images//fluorescent experiment.png>] [31 <./Chem 156 Images//quantum.png>] [32] (./chem156_ch14.aux) ) 
+ [30 <./Chem 156 Images//fluorescent experiment.png>] [31 <./Chem 156 Images//quantum.png>]
+<./Chem 156 Images//spectroscopy.png, id=149, 541.02126pt x 258.9675pt>
+File: ./Chem 156 Images//spectroscopy.png Graphic file (type png)
+<use ./Chem 156 Images//spectroscopy.png>
+Package pdftex.def Info: ./Chem 156 Images//spectroscopy.png  used on input line 982.
+(pdftex.def)             Requested size: 270.50996pt x 129.48341pt.
+ [32 <./Chem 156 Images//spectroscopy.png>]
+<./Chem 156 Images//symmetry.png, id=154, 615.29875pt x 432.61626pt>
+File: ./Chem 156 Images//symmetry.png Graphic file (type png)
+<use ./Chem 156 Images//symmetry.png>
+Package pdftex.def Info: ./Chem 156 Images//symmetry.png  used on input line 1024.
+(pdftex.def)             Requested size: 307.64862pt x 216.3076pt.
+ [33 <./Chem 156 Images//symmetry.png>]
+<./Chem 156 Images//pi orbitals.png, id=159, 421.575pt x 175.65625pt>
+File: ./Chem 156 Images//pi orbitals.png Graphic file (type png)
+<use ./Chem 156 Images//pi orbitals.png>
+Package pdftex.def Info: ./Chem 156 Images//pi orbitals.png  used on input line 1038.
+(pdftex.def)             Requested size: 210.78697pt x 87.8279pt.
+<./Chem 156 Images//wavefunctions.png, id=160, 265.99374pt x 135.50626pt>
+File: ./Chem 156 Images//wavefunctions.png Graphic file (type png)
+<use ./Chem 156 Images//wavefunctions.png>
+Package pdftex.def Info: ./Chem 156 Images//wavefunctions.png  used on input line 1053.
+(pdftex.def)             Requested size: 265.99309pt x 135.5059pt.
+ [34 <./Chem 156 Images//pi orbitals.png> <./Chem 156 Images//wavefunctions.png>]
+<./Chem 156 Images//more wavefunctions.png, id=166, 763.85374pt x 169.63374pt>
+File: ./Chem 156 Images//more wavefunctions.png Graphic file (type png)
+<use ./Chem 156 Images//more wavefunctions.png>
+Package pdftex.def Info: ./Chem 156 Images//more wavefunctions.png  used on input line 1065.
+(pdftex.def)             Requested size: 381.92593pt x 84.81665pt.
+ [35 <./Chem 156 Images//more wavefunctions.png>]
+<./Chem 156 Images//polarizer.png, id=171, 809.0225pt x 388.45125pt>
+File: ./Chem 156 Images//polarizer.png Graphic file (type png)
+<use ./Chem 156 Images//polarizer.png>
+Package pdftex.def Info: ./Chem 156 Images//polarizer.png  used on input line 1101.
+(pdftex.def)             Requested size: 404.51027pt x 194.22514pt.
+ [36 <./Chem 156 Images//polarizer.png>]
+<./Chem 156 Images//anisotropy.png, id=176, 807.015pt x 332.24126pt>
+File: ./Chem 156 Images//anisotropy.png Graphic file (type png)
+<use ./Chem 156 Images//anisotropy.png>
+Package pdftex.def Info: ./Chem 156 Images//anisotropy.png  used on input line 1144.
+(pdftex.def)             Requested size: 403.50652pt x 166.12021pt.
+ [37 <./Chem 156 Images//anisotropy.png>]
+<./Chem 156 Images//FRET.png, id=182, 586.19pt x 222.8325pt>
+File: ./Chem 156 Images//FRET.png Graphic file (type png)
+<use ./Chem 156 Images//FRET.png>
+Package pdftex.def Info: ./Chem 156 Images//FRET.png  used on input line 1154.
+(pdftex.def)             Requested size: 293.09428pt x 111.41597pt.
+ [38 <./Chem 156 Images//FRET.png>]
+<./Chem 156 Images//fret 2.png, id=187, 788.9475pt x 370.38374pt>
+File: ./Chem 156 Images//fret 2.png Graphic file (type png)
+<use ./Chem 156 Images//fret 2.png>
+Package pdftex.def Info: ./Chem 156 Images//fret 2.png  used on input line 1172.
+(pdftex.def)             Requested size: 394.47278pt x 185.1914pt.
+ [39 <./Chem 156 Images//fret 2.png>]
+Overfull \hbox (8.2943pt too wide) in paragraph at lines 1192--1194
+\OT1/cmr/m/n/12 through-out the mem-brane, and then trans-fer that ex-ci-ton en-ergy (FRET) to pig-ment molecules
+ []
+
+<./Chem 156 Images//circular polarization.png, id=192, 597.23125pt x 439.6425pt>
+File: ./Chem 156 Images//circular polarization.png Graphic file (type png)
+<use ./Chem 156 Images//circular polarization.png>
+Package pdftex.def Info: ./Chem 156 Images//circular polarization.png  used on input line 1204.
+(pdftex.def)             Requested size: 298.61488pt x 219.82071pt.
+[40 <./Chem 156 Images//circular polarization.png>]
+<./Chem 156 Images//ellipticity.png, id=197, 468.75125pt x 261.97874pt>
+File: ./Chem 156 Images//ellipticity.png Graphic file (type png)
+<use ./Chem 156 Images//ellipticity.png>
+Package pdftex.def Info: ./Chem 156 Images//ellipticity.png  used on input line 1229.
+(pdftex.def)             Requested size: 234.37505pt x 130.98904pt.
+ [41 <./Chem 156 Images//ellipticity.png>]
+<./Chem 156 Images//angle of rotation.png, id=202, 162.6075pt x 284.06125pt>
+File: ./Chem 156 Images//angle of rotation.png Graphic file (type png)
+<use ./Chem 156 Images//angle of rotation.png>
+Package pdftex.def Info: ./Chem 156 Images//angle of rotation.png  used on input line 1270.
+(pdftex.def)             Requested size: 81.30354pt x 142.03026pt.
+ [42] [43 <./Chem 156 Images//angle of rotation.png>] (./chem156_ch14.aux) ) 
 Here is how much of TeX's memory you used:
- 3311 strings out of 478268
- 52664 string characters out of 5846346
+ 3408 strings out of 478268
+ 56070 string characters out of 5846346
  359493 words of memory out of 5000000
- 21486 multiletter control sequences out of 15000+600000
+ 21571 multiletter control sequences out of 15000+600000
  477333 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,15n,62p,290b,223s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 55i,15n,62p,330b,223s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on chem156_ch14.pdf (32 pages, 2019006 bytes).
+Output written on chem156_ch14.pdf (43 pages, 4280918 bytes).
 PDF statistics:
- 217 PDF objects out of 1000 (max. 8388607)
- 119 compressed objects within 2 object streams
+ 278 PDF objects out of 1000 (max. 8388607)
+ 145 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
 
